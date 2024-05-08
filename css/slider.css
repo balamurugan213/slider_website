@@ -44,8 +44,15 @@
 
   .titleImg{
     height: 100%;
-    width: 350px;
+    max-width: 350px;
     background-color: aliceblue;
+  }
+
+  .titleImg img{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .titleContent{
